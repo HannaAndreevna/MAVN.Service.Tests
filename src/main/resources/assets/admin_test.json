@@ -1,0 +1,49 @@
+{
+  "Admin": {
+    "AdminUserId": "28cd626b-1408-45a8-9157-e9d3e7ffc7e1",
+    "IsActive": true,
+    "Email": "string@newmail.bg",
+    "FirstName": "string",
+    "LastName": "string",
+    "RegisteredAt": "2019-12-11T19:31:38.5796989Z",
+    "PhoneNumber": "string",
+    "Company": "string",
+    "Department": "string",
+    "JobTitle": "string",
+    "Permissions": [
+      {
+        "Type": "Dashboard",
+        "Level": "Edit"
+      },
+      {
+        "Type": "Customers",
+        "Level": "Edit"
+      },
+      {
+        "Type": "ActionRules",
+        "Level": "Edit"
+      },
+      {
+        "Type": "Reports",
+        "Level": "Edit"
+      },
+      {
+        "Type": "BlockchainOperations",
+        "Level": "Edit"
+      },
+      {
+        "Type": "ProgramPartners",
+        "Level": "Edit"
+      },
+      {
+        "Type": "Settings",
+        "Level": "Edit"
+      },
+      {
+        "Type": "AdminUsers",
+        "Level": "Edit"
+      }
+    ]
+  },
+  "Error": "None"
+}

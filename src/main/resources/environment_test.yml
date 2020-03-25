@@ -1,0 +1,26 @@
+backend:
+  url: ".svc.cluster.local"
+  username: "string@newmail.bg"
+  password: "Pass123$"
+frontend:
+  url: "http://backoffice.frontend.svc.cluster.local"
+  username: "string@mymail.bg"
+  password: "Pass123$"
+ethereum:
+  walletPublicAddress: "0xC4204ea4Df02C9385CbCE690e1974178a46D43dA"
+  walletPrivateKey: "9a98dc9df25f786e77dd40005cb4b194851f46c0707d30c49935fa060a930865"
+  transitAccount: "0x171896ce4A8c37298fE2d0A6F6A38B246c65BcFd"
+  tokenIssueAddress: "0xF23A168d7a959084C488ac3e4E2B92BE05Ad9663"
+  mvnVoucherGatewayAddress: "0x2eB767dA135DD49256274a89dA00Ef2aA0894750"
+image:
+  url: "https://testmvncampaignfile.blob.core.windows.net/rulefiles/"
+settings:
+  stringSetting1: "456"
+  stringSetting2: "string"
+  stringSetting3: "string"
+  intSetting1: 1
+  intSetting2: 1
+  intSetting3: 1
+  booleanSetting1: "true"
+  booleanSetting2: "true"
+  booleanSetting3: "true"

@@ -1,0 +1,11 @@
+environment:
+  code: "dev"
+testSettings:
+  jooqDebugMode: "false"
+  experimentalMode: "false"
+  dbcheckMode: "false"
+  inputValidationMode: "false"
+  restDebugMode: "true"
+  screenshotFolder: ./screenshot/output/
+  webDriverTimeout: 5000
+  chromeDriverPath: /Users/chromedriver

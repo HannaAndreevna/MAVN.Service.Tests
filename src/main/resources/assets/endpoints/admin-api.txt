@@ -1,0 +1,121 @@
+Admins
+GET /api/Admins
+PUT /api/Admins
+POST  /api/Admins
+PUT /api/Admins/permissions/{adminUserId}
+GET /api/Admins/generateSuggestedPassword
+GET /api/Admins/autofillData
+POST  /api/Admins/search
+GET /api/Admins/permissions
+
+Auth
+POST  /api/auth/login
+POST  /api/auth/changePassword
+POST  /api/auth/changePasswordAnonymous
+POST  /api/auth/decline-logout
+POST  /api/auth/logout
+
+Blockchain
+GET /api/blocks
+GET /api/blocks/byNumber/{number}
+GET /api/blocks/byNumber
+GET /api/blocks/byNumber/{number}/transactions
+GET /api/blocks/byNumber/transactions
+GET /api/blocks/byNumber/{number}/events
+GET /api/blocks/byNumber/events
+GET /api/blocks/byHash/{hash}
+GET /api/blocks/byHash
+GET /api/blocks/byHash/{hash}/transactions
+GET /api/blocks/byHash/transactions
+GET /api/blocks/byHash/{hash}/events
+GET /api/blocks/byHash/events
+GET /api/transactions
+GET /api/transactions/{hash}
+GET /api/transactions/hash
+GET /api/transactions/{hash}/events
+GET /api/transactions/events
+GET /api/events
+
+BonusTypes
+GET /api/BonusTypes
+
+BurnRules
+GET /api/BurnRules
+PUT /api/BurnRules
+POST  /api/BurnRules
+DELETE  /api/BurnRules
+GET /api/BurnRules/{id}
+DELETE  /api/BurnRules/{id}
+GET /api/BurnRules/query
+POST  /api/BurnRules/vouchers
+PUT /api/BurnRules/image
+POST  /api/BurnRules/image
+
+Customers
+POST  /api/Customers/search
+GET /api/Customers/history
+GET /api/Customers/{customerId}
+GET /api/Customers/query
+GET /api/Customers/{customerId}/balance
+GET /api/Customers/balance
+GET /api/Customers/{customerId}/walletAddress
+GET /api/Customers/walletAddress
+GET /api/Customers/{customerId}/publicWalletAddress
+GET /api/Customers/publicWalletAddress
+POST  /api/Customers/block/{customerId}
+POST  /api/Customers/block
+POST  /api/Customers/unblock/{customerId}
+POST  /api/Customers/unblock
+POST  /api/Customers/blockWallet/{customerId}
+POST  /api/Customers/blockWallet
+POST  /api/Customers/unblockWallet/{customerId}
+POST  /api/Customers/unblockWallet
+
+Dashboard
+GET /api/Dashboard/leads
+GET /api/Dashboard/customers
+GET /api/Dashboard/tokens
+
+EarnRules
+GET /api/EarnRules
+PUT /api/EarnRules
+POST  /api/EarnRules
+DELETE  /api/EarnRules
+GET /api/EarnRules/{id}
+GET /api/EarnRules/query
+PUT /api/EarnRules/image
+POST  /api/EarnRules/image
+DELETE  /api/EarnRules/{earnRuleId}
+
+Home
+GET /
+
+IsAlive
+GET /api/IsAlive
+
+Partners
+GET /api/Partners
+PUT /api/Partners
+POST  /api/Partners
+GET /api/Partners/{id}
+GET /api/Partners/query
+POST  /api/Partners/generateClientSecret
+POST  /api/Partners/generateClientId
+
+Reports
+POST  /api/Reports
+GET /api/Reports/exportToCsv
+
+Settings
+GET /api/Settings/globalCurrencyRate
+PUT /api/Settings/globalCurrencyRate
+GET /api/Settings/agentRequirements
+PUT /api/Settings/agentRequirements
+GET /api/Settings/operationFees
+PUT /api/Settings/operationFees
+
+Statistics
+GET /api/Statistics/customers
+GET /api/Statistics/tokens-current
+GET /api/Statistics/leads
+GET /api/Statistics/total-supply

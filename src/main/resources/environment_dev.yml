@@ -1,0 +1,26 @@
+backend:
+  url: ".svc.cluster.local"
+  username: "string@newmail.bg"
+  password: "Pass123$"
+frontend:
+  url: "https://backoffice.falcon-dev.open-source.exchange"
+  username: "string@mymail.bg"
+  password: "Pass123$"
+ethereum:
+  walletPublicAddress: "0x3ff662AF6C47e92d8F4BB23deeC3cf58AdBB2796"
+  walletPrivateKey: "d69dac98cbaa219479cc617a0477e9a7431174d7244685a5aea041c5d49cca35"
+  transitAccount: "0x9b4727081A07f3e46952A84276b79879c25ABFa1"
+  tokenIssueAddress: "0xF1523522C75b904572Fd719d7362c97939310A25"
+  mvnVoucherGatewayAddress: "0x0a3cEE3a1256ADe60A1F42B95f8d975CCC81083c"
+image:
+  url: "https://devmvncampaignfile.blob.core.windows.net/rulefiles/"
+settings:
+  stringSetting1: "string"
+  stringSetting2: "string"
+  stringSetting3: "string"
+  intSetting1: 1
+  intSetting2: 1
+  intSetting3: 1
+  booleanSetting1: "true"
+  booleanSetting2: "true"
+  booleanSetting3: "true"

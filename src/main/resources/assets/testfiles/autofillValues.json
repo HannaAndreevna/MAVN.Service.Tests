@@ -1,0 +1,32 @@
+{
+  "Values": [
+    {
+      "Type": "Company",
+      "Values": [
+        "MAVN Properties",
+        "MAVN International",
+        "MAVN Hospitality",
+        "MAVN Malls",
+        "MAVN Hotels & Resorts",
+        "MAVN Retail",
+        "Burj Khalifa",
+        "MAVN Community Management",
+        "MAVN Technologies",
+        "MAVN Industries and Investments",
+        "Amlak Finance",
+        "MAVN Investment Holdings",
+        "Hamptons International"
+      ]
+    },
+    {
+      "Type": "Department",
+      "Values": [
+        "Technology",
+        "Finance",
+        "Sales",
+        "HR",
+        "Operations"
+      ]
+    }
+  ]
+}
